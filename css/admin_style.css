@@ -1,0 +1,49 @@
+.wpcpx_checkbox
+{
+	background-image:url("../images/switch_off.png");
+	background-repeat:no-repeat;
+	width:75px;
+	height:28px;
+	border:none;
+	float:right;
+}
+
+.wpcpx_checkbox.checked
+{
+	background-image:url("../images/switch_on.png");
+}
+
+.wrap.inline
+{
+	display:inline-block;
+}
+.agx-box{background: #fff;border-radius: 2px; border: 1px solid #ccc;margin-top: 20px;margin-right: 20px;}
+.agx-header{background: #F1F1F1;  height: 45px;  font: normal normal bold 12px/29px Arial, serif;  line-height: 45px;border-bottom: 1px solid #ccc;}
+.agx-header h2{margin: 0px;padding-left: 20px;}
+.agx-box-left{float: left;width: 22%;padding: 1%;}
+.agx-box-left img{width: 100%;}
+.agx-box-content{width: 74%;float:right;  border-left: 1px solid #ccc;padding-left: 1%;}
+.agx-box-content .wrap h3{background-color: #F1F1F1;
+  margin-left: -12px;
+  margin-right: -20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;}
+.agx-clear{clear: both;display: block; content: "";}
+.agx-footer{text-align: right;padding: 10px;background: #F1F1F1;border-top:1px solid #ccc;}
+#agx-right-button{
+	height: 30px;
+	display: block;
+	float: right;
+	padding: 0px;	
+	margin: 0px;
+	margin-top: -5px;
+	background: url('../images/switch_off.png');
+	width: 73px;
+	cursor: pointer;
+}
+#agx-right-button.agx-checked{
+	background: url('../images/switch_on.png');
+}
